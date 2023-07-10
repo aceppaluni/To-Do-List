@@ -1,0 +1,56 @@
+body {
+    user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 10px;
+    text-align: center;
+    background-image: linear-gradient(to left, powderblue, lightgreen, yellow);
+}
+
+img {
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    margin: 10px;
+    background-color: salmon;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+}
+.to-do-area {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+.display-message {
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    flex-grow: 1;
+    list-style-type: none;
+    background-color: beige;
+    color: salmon;
+    padding: 15px;
+    border-radius: 8px;
+}
+li {
+    align-items: center;
+}
